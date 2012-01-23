@@ -21,4 +21,21 @@ var big_expression = a + b + (a * b);
 
 console.log("Does a equals b? %s", a == b);
 
+// conditionals
+if (b > a && b < a * b)
+  console.log(b);
+else
+  console.log(a);
+
+if (a == 4)
+  console.log(6);
+else if (b == 4)
+  console.log(6 + 7 + a);
+else
+  console.log(25);
+
+
+console.log (2 + (b > a ? b : a));
+
+
 
